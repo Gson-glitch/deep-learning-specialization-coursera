@@ -1,0 +1,76 @@
+# =================================================================
+# Deep Learning Specialization - tailored .gitignore
+# =================================================================
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+env/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Datasets
+data/
+datasets/
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.npy
+*.npz
+
+# Model Weights & Large Binaries
+*.h5
+*.pb
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.model
+*.onnx
+# TensorFlow saved_model folders
+saved_model/
+variables/
+
+# Logs & Visualization
+logs/
+runs/
+.tensorboard/
+*.log
+
+# HuggingFace / Transformers Cache
+.cache/
+.cache/huggingface/
+
+# IDE & OS Junk
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Variables
+.env
+.flaskenv

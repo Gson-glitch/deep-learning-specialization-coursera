@@ -1,0 +1,7 @@
+[project]
+name = "deep-learning-specialization-journey"
+version = "0.1.0"
+description = "This repository tracks my progress through the Deep Learning Specialization by Andrew Ng on Coursera."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
