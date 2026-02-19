@@ -1,7 +1,14 @@
 [project]
-name = "deep-learning-specialization-journey"
+name = "deep-learning-specialization-coursera"
 version = "0.1.0"
 description = "This repository tracks my progress through the Deep Learning Specialization by Andrew Ng on Coursera."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "torch>=2.10.0",
+]
